@@ -2,7 +2,7 @@ class Character:
     experience = 0
     hit_points = 10
 
-    def get_weapom(self):
+    def get_weapon(self):
         weapon_choice = input("Weapon ([S]word, [A]xe, [B]ow): ").lower()
         if weapon_choice in 'sab':
             if weapon_choice == 's':
@@ -12,11 +12,11 @@ class Character:
             else:
                 return 'bow'
         else:
-            self.get_weapom()
+            self.get_weapon()
 
     def __init__(self, **kwargs):
         self.name = input("Name: ")
-        self.weapon = self.get_weapom()
+        self.weapon = self.get_weapon()
 
         for key, value in kwargs.items():
             setattr(self, key, value)

@@ -12,3 +12,9 @@ class Game:
             Troll(),
             Dragon()
         ]
+
+    def get_next_monster(self):
+        try:
+            return self.monsters.pop(0)
+        except IndexError:
+            return None

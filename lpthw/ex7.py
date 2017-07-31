@@ -12,6 +12,7 @@ print "And everywhere that Mary went."
 # Prints '.' for ten times
 print "." * 10
 
+# Concatenating strings together
 end1 = "B"
 end2 = "u"
 end3 = "r"

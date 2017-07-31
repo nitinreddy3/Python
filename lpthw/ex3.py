@@ -36,6 +36,7 @@ print "Is it greater or equal?", 5 >= - 2
 # Checks if 5 is less than or equal to -2
 print "Is it less or equal?", 5 <= - 2
 
+# Prints the value of floating point numbers
 print "What is 7.0 / 4.0", 7.0 / 4.0
 
 print "What is 7 / 4", 7 / 4

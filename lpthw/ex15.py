@@ -1,7 +1,10 @@
 from sys import argv
 
 # Arguments are script name and filename
-script, filename = argv
+script = argv
+
+# Accept the file name from a user
+filename = raw_input("Enter the file name: ")
 
 # Assigns object returned from open method to the variable
 txt = open(filename)

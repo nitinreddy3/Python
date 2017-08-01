@@ -8,14 +8,21 @@ print "I'd like to ask you a few questions."
 print "Do you like me %s?" % user_name
 likes = raw_input(prompt)
 
+if likes == "y":
+    print "That's so cute of you!"
+
 print "Where do you live %s?" % user_name
 lives = raw_input(prompt)
+
+if lives == 'pune':
+    print "Which country does it belong to ?"
+    country = raw_input(prompt)
 
 print "What kind of computer do you have?"
 computer = raw_input(prompt)
 
 print """
 Alright, so you said %r about liking me.
-You live in %r. Not sure where that is.
+You live in a city %r which is in %r. Not sure where that is.
 And you have a %r computer. Nice.
-""" % (likes, lives, computer)
+""" % (likes, lives, country, computer)

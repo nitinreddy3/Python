@@ -4,24 +4,24 @@
 
 # Declare a variable and initialize it
 f = 0;
-print f
+print (f)
 
 # re-declaring the variable works
 f = "abc"
-print f
+print (f)
 
 # ERROR: variables of different types cannot be combined
 #print "string type " + 123
-print "string type " + str(123)
+print ("string type " + str(123))
 
 # Global vs. local variables in functions
 def someFunction():
   #global f
   f = "def"
-  print f
+  print (f)
 
 someFunction()
-print f 
+print (f) 
 
 del f
-print f
+print (f)

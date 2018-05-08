@@ -1,8 +1,8 @@
 # Python - Python Rocks
 
-###What you should expect from this ?
+### What you should expect from this ?
 
-####Learn Python basics
+#### Learn Python basics
 
 ```python
 s = "Python syntax highlighting"
